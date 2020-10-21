@@ -1,0 +1,633 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Patient Journey</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="main">
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://www.whatismybrowser.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  	<nav>
+		<div class="journey-navigator">
+			<div class="plane-path">
+				<img src="img/nav-plane.svg" onerror="this.onerror=null; this.src='img/nav-plane.png'" id="nav-plane" class="">
+			</div>
+			<img id="nav-arrows" width="123px" height="73px" src="img/nav-arrows.svg" alt="nav-arrows" >
+			<ul>
+				<li id="prePsy" class=" ">Pre-Psychosis</li>
+				<li id="firstEp">1st Episode</li>
+				<li id="diag">Diagnosis</li>
+				<li id="reCy">Relapse Cycle</li>
+				<li id="newNorm">'New Normal'</li>
+			</ul>
+		</div>
+  	</nav>
+  	<img src="img/plane.svg" onerror="this.onerror=null; this.src='img/plane.png'" id="plane" class="">
+	<div id="childhoodPicker" class="choiceset choicevisible">
+		<div class="wrapper">
+			<div class="first-choices">
+				<div class="center">
+					<h2>What were they like as a child?</h2>
+					<h6><span style="color: white;">HINT:</span> more vulnerable individuals are more susceptible to poorer outcomes when faced with challenges throughout their journey with schizophrenia</h6>
+				</div>
+				<div class="option" style="background-color: #99BCCF">
+					<p>Described as being somewhat introverted and reserved whilst at school. Relatively insecure and suffered some bouts of anxiety but otherwise was considered hardworking and studious.</p>
+					<a href="#0" class="easy" data-id="prePsy">SELECT</a>
+				</div>
+				<div class="option" style="background-color: #879FB0">
+					<p>Although they received encouragement from their parents to do well in school, they were considered unpredictable and had a tendency to get into trouble.</p>
+					<a href="#0" class="medium" data-id="prePsy">SELECT</a>
+				</div>
+				<div class="option" style="background-color: #758291">
+					<p>Always considered a ‘problem child’ growing up. Attendance at school was poor. Often got into fights with others in their neighborhood, which would ultimately result in them being sent to youth detention centers.</p>
+					<a href="#0" class="hard" data-id="prePsy">SELECT</a>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div id="prePsychosis" class="choiceset">
+		<!-- Modal content -->
+		<div class="modal">
+			<span class="close"><img src="img/close-x.svg" alt="close-x" ></span>
+			<div class="modal-content">
+				<div class="blue">Paranoia</div>
+				<div class="gray">Becoming Withdrawn</div>
+				<div class="blue">Delusions</div>
+				<div class="lightgray">Disorganized Thoughts</div>
+				<div class="gray">Lack Attention at School/Work</div>
+				<div class="blue">Thought Disorders (Confused Thoughts)</div>
+				<div class="blue">Hallucinations</div>
+				<div class="gray">Inability to Form or Maintain Relationships</div>
+				<div class="lightgray">Difficulty Focusing On/ Completing Tasks</div>
+				<div class="modal-label"><img src="img/modal-labels.svg" alt="modal-labels" ></div>
+				<div class="modal-label">size of text = prevalence of symptom type   |   color of text = type of symptom</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<h1>Pre-Psychosis</h1>
+			<div class="content content-easy">
+				<p>Described as being somewhat introverted and reserved whilst at school. Relatively insecure and suffered some bouts of anxiety but otherwise was considered hardworking and studious. Parents were always highly supportive.<br>&nbsp;<br>Was able to get the desired grades to get into university and was also able to hold down a part-time job as a sales assistant alongside their studies. They are able to form meaningful relationships and were considered to be social by their peers.
+</p>
+				<div class="media">
+					<video width="100%" height="auto" controls="controls" preload="none">
+					  <source src="img/Pre-Psychosis/18516%20-%20PS%201.mp4" type="video/mp4">
+					  Your browser does not support the video tag.
+					</video>
+				</div>
+			</div>
+			<div class="content content-medium">
+				<p>Considered unpredictable when they were at school. Although they received encouragement from their parents to do well, they started to hang out with the ‘wrong sort of people’ at school and as a result their behaviour became somewhat problematic. They started smoking cannabis with friends when they were 16. They now work full-time at a local restaurant.</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Pre-Psychosis/18516%20-%20PS%202.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Pre-Psychosis/18516%20-%20PS%203.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+			<div class="content content-hard">
+				<p>Often considered a ‘problem child’ growing up. Their attendance at school was poor and they often got into fights with others in their neighbourhood which would ultimately result in them being sent to youth detention centres. During their adolescence, their family often threw them out of the house as a result of their aggressive behaviour. They began to drink alcohol heavily from the age of 14 and began abusing cocaine in their early adult years.</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Pre-Psychosis/18516%20-%20PS%204.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Pre-Psychosis/18516%20-%20PS%205.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-links">
+			<div class="bottom-wrapper">
+				<h5>WHAT HAPPENED BEFORE their 1st PSYCHOSIS?</h5>
+				<ul>
+					<span>Choose one of the options to move forward:</span>
+					<li><a href="#0" class="easy" data-id="firstEp">No identifiable triggers, supportive environment</a></li>
+					<li><a href="#0" class="medium" data-id="firstEp">Breakdown of a close friendship</a></li>
+					<li><a href="#0" class="hard" data-id="firstEp">Death of a loved one</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+ 	<div id="firstEpisode" class="choiceset">
+	 	<!-- Modal content -->
+		<div class="modal">
+			<span class="close"><img src="img/close-x.svg" alt="close-x" ></span>
+			<div class="modal-content">
+				<div class="blue">Paranoia</div>
+				<div class="gray">Becoming Withdrawn</div>
+				<div class="blue">Delusions</div>
+				<div class="lightgray">Disorganized Thoughts</div>
+				<div class="gray">Lack Attention at School/Work</div>
+				<div class="blue">Thought Disorders (Confused Thoughts)</div>
+				<div class="blue">Hallucinations</div>
+				<div class="gray">Inability to Form or Maintain Relationships</div>
+				<div class="lightgray">Difficulty Focusing On/ Completing Tasks</div>
+				<div class="modal-label"><img src="img/modal-labels.svg" alt="modal-labels" ></div>
+				<div class="modal-label">size of text = prevalence of symptom type   |   color of text = type of symptom</div>
+			</div>
+		</div>
+	 	<div class="wrapper">
+			<h1>1st Episode of Psychosis</h1>
+			<div class="content content-easy">
+				<p>They experienced their first episode of psychosis (FEP) when they were 19 years old. Their parents initially noticed them behaving strangely and at first suspected them of suffering from depression. They became very withdrawn from their friends and family and would often stay in their room for days at a time. They also experienced visual hallucinations. They started worrying that everyone around them was talking about them behind their back and found it hard to ‘organize their thoughts’ when they were studying at school.</p>
+				<div class="media">
+					<video width="100%" height="auto" controls="controls" preload="none">
+					  <source src="img/FEP/18516%20-%20FEP%201.mp4" type="video/mp4">
+					  Your browser does not support the video tag.
+					</video>
+				</div>
+			</div>
+			<div class="content content-medium">
+				<p>During their FEP, their became aggressive and isolated themselves from their friends and family at home. Although their family tried to help them and felt that they were going through an intense period of stress they often found their behaviour challenging and out-of-control. Eventually their family took them to a psychiatrist and they were admitted to hospital with acute psychosis.</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/FEP/18516%20-%20FEP%202.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/FEP/18516%20-%20FEP%203.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+			<div class="content content-hard">
+				<p>They were followed closely by the Assertive Community Team (ACT) . On one occasion (after a period of especially heavy substance abuse) they were admitted to hospital because they was seen wandering around the streets at night acting manically and seeming to speak to someone who wasn’t there. Their family did not visit them during their stay in hospital.</p>
+				<div class="media">
+					<video width="100%" height="auto" controls="controls" preload="none">
+					  <source src="img/FEP/18516%20-%20FEP%204.mp4" type="video/mp4">
+					  Your browser does not support the video tag.
+					</video>
+				</div>
+			</div>
+	 	</div>
+		<div class="bottom-links">
+			<div class="bottom-wrapper">
+				<h5>How do THEY handle their diagnosis?</h5>
+				<ul><span>Choose one of the options to move forward:</span>
+					<li><a href="#0" class="easy" data-id="diag">Accepts Diagnosis</a></li>
+					<li><a href="#0" class="medium" data-id="diag">Reluctant to Accept Diagnosis</a></li>
+					<li><a href="#0" class="hard" data-id="diag">Does Not Accept Diagnosis</a></li>
+				</ul>
+			</div>
+		</div>
+	</div> 
+	<div id="diagnosis" class="choiceset">
+		<!-- Modal content -->
+		<div class="modal">
+			<span class="close"><img src="img/close-x.svg" alt="close-x" ></span>
+			<div class="modal-content">
+				<div class="blue">Paranoia</div>
+				<div class="gray">Becoming Withdrawn</div>
+				<div class="blue">Delusions</div>
+				<div class="lightgray">Disorganized Thoughts</div>
+				<div class="gray">Lack Attention at School/Work</div>
+				<div class="blue">Thought Disorders (Confused Thoughts)</div>
+				<div class="blue">Hallucinations</div>
+				<div class="gray">Inability to Form or Maintain Relationships</div>
+				<div class="lightgray">Difficulty Focusing On/ Completing Tasks</div>
+				<div class="modal-label"><img src="img/modal-labels.svg" alt="modal-labels" ></div>
+				<div class="modal-label">size of text = prevalence of symptom type   |   color of text = type of symptom</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<h1>Diagnosis of Schizophrenia</h1>
+			<div class="content content-easy">
+				<p>They had the impression that something was wrong, so their parents accompanied them to a psychiatrist consultation. They were initially suspected of having depression and given some anti-depressants. However, as their hallucinations persisted, they returned for another consultation.<br>&nbsp;<br>During the second consultation, the psychiatrist diagnosed them with schizophrenia. They were initially concerned that this could have an impact on the rest of their life. However, after the initial shock of diagnosis they were relieved that a name had been put to what they were experiencing. They wanted to focus on managing their condition.</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Diagnosis/18516%20-%20D%201.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Diagnosis/18516%20-%20D%202.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Diagnosis/18516%20-%20D%203.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Diagnosis/18516%20-%20D%204.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+			<div class="content content-medium">
+				<p>They were diagnosed with schizophrenia during their three-month stay in hospital. They attended group therapy sessions and experienced benefits to their symptoms when receiving anti-psychotic treatment.<br>&nbsp;<br>Their family was glad that they had finally received help and hoped that the treatment would stabilise their behaviour in the future.
+</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Diagnosis/18516%20-%20D%205.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Diagnosis/18516%20-%20D%206.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+			<div class="content content-hard">
+				<p>They were told of their diagnosis of schizophrenia during their stay in accident and emergency but were unable to acknowledge it due to their state of mania at the time. Upon admission into the hospital they acted aggressively towards the staff and were quickly initiated onto anti-psychotics, which they often refused to take. They were not unknown to the staff members and many considered them as a ‘red flag’ patient.</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Diagnosis/18516%20-%20D%207.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Diagnosis/18516%20-%20D%208.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="bottom-links">
+			<div class="bottom-wrapper">
+				<h5>how well do they understand their disorder and adhere to treatments?</h5>
+				<ul><span>Choose one of the options to move forward:</span>
+					<li><a href="#0" class="easy" data-id="reCy">compliant with treatment + high understanding</a></li>
+					<li><a href="#0" class="medium" data-id="reCy">somewhat compliant + moderate understanding</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="stabilization" class="choiceset">
+		<!-- Modal content -->
+		<div class="modal">
+			<span class="close"><img src="img/close-x.svg" alt="close-x" ></span>
+			<div class="modal-content">
+				<div class="blue">Paranoia</div>
+				<div class="gray">Becoming Withdrawn</div>
+				<div class="blue">Delusions</div>
+				<div class="lightgray">Disorganized Thoughts</div>
+				<div class="gray">Lack Attention at School/Work</div>
+				<div class="blue">Thought Disorders (Confused Thoughts)</div>
+				<div class="blue">Hallucinations</div>
+				<div class="gray">Inability to Form or Maintain Relationships</div>
+				<div class="lightgray">Difficulty Focusing On/ Completing Tasks</div>
+				<div class="modal-label"><img src="img/modal-labels.svg" alt="modal-labels" ></div>
+				<div class="modal-label">size of text = prevalence of symptom type   |   color of text = type of symptom</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<h1>Stabilization</h1>
+			<div class="content content-easy">
+				<p>They found taking their daily medication easy and found it easy to integrate back into their college life and often went out socializing with their friends. Their friends were aware of their diagnosis of schizophrenia and were very supportive. Exam pressures often resulted in them feeling highly stressed and anxious but they were able to achieve good grades.<br>&nbsp;<br>They started to smoke marijuana in order to relax their nerves during exam period.</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Stabilization/18516%20-%20S%201.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Stabilization/18516%20-%20S%202.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Stabilization/18516%20-%20S%203.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+			<div class="content content-medium">
+				<p>They returned home to their family after their stay in hospital. Every two weeks, they returned to the hospital to receive a long-acting injectable. During these consultations their doctor asks how they have been getting on. Their family tends to accompany them to these consultations but if no one is available they are able to attend on their own. They also attend group therapy sessions as well as cognitive behavioural therapy (CBT) with a psychiatrist.<br>&nbsp;<br>They were able to return to work but occasionally smoked cannabis with their friends. They were happy that they were able to get their life back on track.
+</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Stabilization/18516%20-%20S%204.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Stabilization/18516%20-%20S%205.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<div class="bottom-links">
+			<div class="bottom-wrapper">
+				<h5>what sorts of symptoms do they experience leading up to a relapse?</h5>
+				<ul><span>Choose one of the options to move forward:</span>
+					<li><a href="#0" class="easy" data-id="reCy">Insomnia</a></li>
+					<li><a href="#0" class="medium" data-id="reCy">Period of depression + anxiety</a></li>
+					<li><a href="#0" class="hard" data-id="reCy">Period of aggression + violence</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="relapse" class="choiceset">
+		<!-- Modal content -->
+		<div class="modal">
+			<span class="close"><img src="img/close-x.svg" alt="close-x" ></span>
+			<div class="modal-content">
+				<div class="blue">Paranoia</div>
+				<div class="gray">Becoming Withdrawn</div>
+				<div class="blue">Delusions</div>
+				<div class="lightgray">Disorganized Thoughts</div>
+				<div class="gray">Lack Attention at School/Work</div>
+				<div class="blue">Thought Disorders (Confused Thoughts)</div>
+				<div class="blue">Hallucinations</div>
+				<div class="gray">Inability to Form or Maintain Relationships</div>
+				<div class="lightgray">Difficulty Focusing On/ Completing Tasks</div>
+				<div class="lightgray">Memory Problems</div>
+				<div class="blue">Aggression</div>
+				<div class="modal-label"><img src="img/modal-labels.svg" alt="modal-labels" ></div>
+				<div class="modal-label">size of text = prevalence of symptom type   |   color of text = type of symptom</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<h1>Relapse</h1>
+			<div class="content content-easy">
+				<p>Whenever they relapsed, they became withdrawn and isolated from those around them. Their family was frightened for them as they were not able to take care of them whilst they were staying in college accommodation. Their friends were also very concerned for them and often didn’t hear from them for days at a time.<br>&nbsp;<br>They found it difficult to get out of bed in the morning, but finally went to the doctor with the encouragement of their friends.</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Relapse/18516%20-%20REL%201.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Relapse/18516%20-%20REL%202.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Relapse/18516%20-%20REL%203.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+			<div class="content content-medium">
+				<p>Whenever they relapsed, they began smoking cannabis more frequently in an effort to self-medicate. This caused arguments between themselves and their family. They felt it helped with their symptoms for a while but then they always seemed to come back. They experienced hallucinations and often heard voices speaking to them. Their family has tried to take them to a psychiatrist consultation but they refused. They felt that everyone was out to get them.</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Relapse/18516%20-%20REL%204.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Relapse/18516%20-%20REL%205.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+			<div class="content content-hard">
+				<p>Whenever they relapsed, their behaviour became increasingly aggressive and manic. They often believed that people wanted to kill them and were quick to start fights with people. As a result they were quickly re-admitted into hospital.<br>&nbsp;<br>This cycle of refusing to take their medication and being re-admitted into hospital continued for many years.</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Relapse/18516%20-%20REL%206.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Relapse/18516%20-%20REL%207.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-links">
+			<div class="bottom-wrapper">
+				<h5>How much insight do they have into their own condition?</h5>
+				<ul><span>Choose one of the options to move forward:</span>
+					<li><a href="#0" class="easy" data-id="reCy">high insight into condition</a></li>
+					<li><a href="#0" class="medium" data-id="reCy">some degree of insight into condition</a></li>
+					<li><a href="#0" class="medium" data-id="reCy">little to no insight into condition</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="recovery" class="choiceset">
+		<!-- Modal content -->
+		<div class="modal">
+			<span class="close"><img src="img/close-x.svg" alt="close-x" ></span>
+			<div class="modal-content">
+				<div class="blue">Paranoia</div>
+				<div class="gray">Becoming Withdrawn</div>
+				<div class="blue">Delusions</div>
+				<div class="lightgray">Disorganized Thoughts</div>
+				<div class="gray">Lack Attention at School/Work</div>
+				<div class="blue">Thought Disorders (Confused Thoughts)</div>
+				<div class="blue">Hallucinations</div>
+				<div class="gray">Inability to Form or Maintain Relationships</div>
+				<div class="lightgray">Difficulty Focusing On/ Completing Tasks</div>
+				<div class="lightgray">Memory Problems</div>
+				<div class="modal-label"><img src="img/modal-labels.svg" alt="modal-labels" ></div>
+				<div class="modal-label">size of text = prevalence of symptom type   |   color of text = type of symptom</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<h1>Recovery</h1>
+			<div class="content content-easy">
+				<p>After their first relapse, their treatment was changed to an alternative antipsychotic. As a result, their mood became more stable and they were able to go out with their friends again. They still heard voices on occasion but they were able to recognise these as symptoms of their condition. Their friends and family were very supportive whenever they relapsed but they remained mostly independent.</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Recovery/18516%20-%20REC%201.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Recovery/18516%20-%20REC%202.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+			<div class="content content-medium">
+				<p>They began receiving treatment at a slightly increased dose and attended group-therapy sessions which they found to be very beneficial. They still on occasion experienced hallucinations and heard voices which frightened them.</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Recovery/18516%20-%20REC%203.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/Recovery/18516%20-%20REC%204.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-links">
+			<div class="bottom-wrapper">
+				<h5>how much support do they have, and do they comply with treatment?</h5>
+				<ul><span>Choose one of the options to move forward:</span>
+					<li><a href="#0" class="easy" data-id="newNorm">lots of support, compliant with treatment</a></li>
+					<li><a href="#0" class="medium" data-id="newNorm">some support, somewhat compliant with treatment</a></li>
+					<li><a href="#0" class="hard" data-id="newNorm">limited/no support, noncompliant with treatment</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="newReality" class="choiceset">
+		<!-- Modal content -->
+		<div class="modal">
+			<span class="close"><img src="img/close-x.svg" alt="close-x" ></span>
+			<div class="modal-content">
+				<div class="blue">Paranoia</div>
+				<div class="gray">Becoming Withdrawn</div>
+				<div class="blue">Delusions</div>
+				<div class="lightgray">Disorganized Thoughts</div>
+				<div class="gray">Lack Attention at School/Work</div>
+				<div class="blue">Thought Disorders (Confused Thoughts)</div>
+				<div class="blue">Hallucinations</div>
+				<div class="gray">Inability to Form or Maintain Relationships</div>
+				<div class="lightgray">Difficulty Focusing On/ Completing Tasks</div>
+				<div class="lightgray">Memory Problems</div>
+				<div class="modal-label"><img src="img/modal-labels.svg" alt="modal-labels" ></div>
+				<div class="modal-label">size of text = prevalence of symptom type   |   color of text = type of symptom</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<h1>‘New Normal’</h1>
+			<div class="content content-easy">
+				<p>After a few false starts, they were able to achieve a qualification from home after dropping out of college, and went on to find a job in the city. They still have close friends and see them often but still suffer occasionally from depression and unexplained anxiety.<br>&nbsp;<br>They take their medication on a daily basis and knows to recognise the warning signs of a relapse. When this happens they makes sure to inform their close friends and family and attend a consultation with a psychiatrist.
+</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/New%20Reality/18516%20-%20RL%201.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/New%20Reality/18516%20-%20RL%202.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+			<div class="content content-medium">
+				<p>They were able to find a new job in a local cafe. As their family is not available all of the time to care of them, they now have a social worker who helps them with daily tasks. They continue to attend consultations to receive their treatment and their psychiatrist often asks how they are feeling. They also suffer from memory problems.<br>&nbsp;<br>They still experience relapses on occasion - especially after a period of high stress - but they have gotten better able to deal with these relapses over time.   
+</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/New%20Reality/18516%20-%20RL%203.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/New%20Reality/18516%20-%20RL%204.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/New%20Reality/18516%20-%20RL%205.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+			<div class="content content-hard">
+				<p>They experience relapses frequently. Because of their poor compliance in taking their medication, they are often admitted into hospital. When they leave hospital, their behaviour is so manic and aggressive that it is not long before they are re-admitted.<br>&nbsp;<br>They are homeless and no longer have contact with their family.</p>
+				<div class="media">
+					<div class="journey-slider">
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/New%20Reality/18516%20-%20RL%206.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+						<video width="100%" height="auto" controls="controls" preload="none">
+						  <source src="img/New%20Reality/18516%20-%20RL%207.mp4" type="video/mp4">
+						  Your browser does not support the video tag.
+						</video>
+					</div>
+				</div>
+			</div>
+			<button id="startOver" onclick="location.reload();" style="margin:0 auto;display: block;">Start Over <img src="img/back_arrow.svg" width="52px" height="30px" alt="back_arrow" style="display: inline;" ></button>
+		</div>
+	</div>
+	<div id="background-wrap">
+	    <div class="cloud x1">
+		    <img src="img/clouds1.svg" alt="clouds1" >
+	    </div>
+	    <div class="cloud x2">
+		    <img src="img/clouds2.svg" alt="clouds2" >
+	    </div>
+	    <div class="cloud x3">
+		    <img src="img/clouds3.svg" alt="clouds3" >
+	    </div>
+	    <div class="cloud x4">
+		    <img src="img/clouds4.svg" alt="clouds4" >
+	    </div>
+	    <div class="cloud x5">
+		    <img src="img/clouds5.svg" alt="clouds5" >
+	    </div>
+	    <div class="cloud x6">
+		    <img src="img/clouds6.svg" alt="clouds6" >
+	    </div>
+	    <div class="cloud x7">
+		    <img src="img/clouds7.svg" alt="clouds7" >
+	    </div>
+	    <div class="cloud x8">
+		    <img src="img/clouds8.svg" alt="clouds8" >
+	    </div>
+	    <div class="cloud x9">
+		    <img src="img/clouds9.svg" alt="clouds9" >
+	    </div>
+	    <div class="cloud x10">
+		    <img src="img/clouds10.svg" alt="clouds10" >
+	    </div>
+	    <div class="sun">
+		    <img src="img/sun.svg" alt="sun" >
+	    </div>
+	    <div class="lightning1">
+		    <img src="img/lighting1.svg" alt="lightning" >
+	    </div>
+	    <div class="lightning2">
+		    <img src="img/lighting2.svg" alt="lightning" >
+	    </div>
+	</div>
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.journey-slider').slick({
+				infinite: false,
+				fade: true,
+				speed: 300,
+				nextArrow: '.next',
+				prevArrow: '.prev'
+			});
+		});
+	</script>
+</body>
+
+</html>

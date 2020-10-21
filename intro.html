@@ -1,0 +1,87 @@
+<!doctype html>
+<html id="intro" class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Patient Journey</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://www.whatismybrowser.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <div class="intro-wrapper">
+	<div id="introSlider" class="intro-slider">
+		<div class="slide">
+			<h2>You will go through this journey as someone who has schizophrenia.</h2>
+		</div>
+		<div class="slide">
+			<h2><span style="color: #464E57">Your decisions</span> will affect how well or poorly they do in managing their schizophrenia.</h2>
+		</div>
+		<div class="slide">
+			<h2>The weather represents the severity of their <span style="color: #464E57">symptoms.</span></h2>
+		</div>
+		<div class="slide">
+			<h2>The plane represents their <span style="color: #464E57">symptom control</span> and overall wellbeing.</h2>
+		</div>
+		<div class="slide">
+			<h2>Click any stage to learn more about it's <span style="color: #464E57">symptoms.</span></h2>
+			<img src="img/nav_scnsht.png" alt="nav_scnsht" width="100%">
+		</div>
+		<div id="last-slide" class="slide">
+			<h2>Move to the next stage by choosing a response.</h2>
+			<img src="img/footer_scnsht.png" alt="footer_scnsht" width="100%">
+		</div>
+	</div>
+	<div class="slide-buttons center">
+		<button class="prev">< Back</button>
+		<button class="next">Next ></button>
+	</div>
+	<div id="gotIT" class="wrapper center" style="display: none">
+		<a href="journey.html" class="btn-lg">GOT IT.</a>
+	</div>
+	<div id="intro-background-wrap">
+	    <div class="cloud intro_cloud">
+		    <img src="img/intro_clouds.svg" alt="intro_clouds" >
+	    </div>
+	</div>
+  </div>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script>
+	
+	$(document).ready(function(){
+		$('.intro-slider').slick({
+			infinite: false,
+			fade: true,
+			speed: 300,
+			nextArrow: '.next',
+			prevArrow: '.prev'
+		});
+	});
+
+$(document).click(function() {		
+	if ($('#last-slide').hasClass('slick-active')) {
+    	$('.slide-buttons').hide();
+    	$('#gotIT').show();
+	} else {
+    	$('.slide-buttons').show();
+    	$('#gotIT').hide();
+	};
+});
+  </script>
+</body>
+
+</html>
